@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#05070a" />
+  <meta name="description" content="FrameLock — закрытая студия Minecraft-сериала. Подайте заявку на проходку в студию и получите ключ доступа после одобрения." />
+  <title>FrameLock — проходка в студию</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="noise-line" aria-hidden="true"></div>
+
+  <header class="topbar" data-elevated="false">
+    <a class="brand" href="#home" aria-label="FrameLock home">
+      <span class="brand-mark">FL</span>
+      <span class="brand-copy"><b>FrameLock</b><small>studio access</small></span>
+    </a>
+    <nav class="nav" aria-label="Навигация">
+      <a href="#project">Проект</a>
+      <a href="#access">Проходка</a>
+      <a href="#rules">Правила</a>
+      <a href="#status">Статус</a>
+      <a href="#admin">Админ</a>
+    </nav>
+    <button class="hamb" type="button" aria-label="Открыть меню"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="frame frame-a"></div>
+        <div class="frame frame-b"></div>
+        <div class="beam"></div>
+        <div class="scan-grid"></div>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Заявки открыты · съёмочный доступ</p>
+          <h1>Проходка в студию <em>FrameLock</em></h1>
+          <p class="lead">Мы собираем небольшую команду для Minecraft-сериала: съёмки, роли, сцены, декорации и живое выживание рядом с проектом. Доступ в студию выдаётся по заявке, чтобы на площадке оставались только свои.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#apply">Стать участником</a>
+            <a class="btn ghost" href="#rules">Сначала правила</a>
+          </div>
+          <div class="hero-meta" aria-label="Статистика проекта">
+            <span><b>Serial</b> съёмочный сервер</span>
+            <span><b>Techno-Magic</b> выживание сборки</span>
+            <span><b>Manual review</b> без случайных людей</span>
+          </div>
+        </div>
+        <aside class="access-card" aria-label="Карточка доступа">
+          <div class="access-card__top">
+            <span class="status-dot"></span>
+            <span>FRAMELOCK PASS</span>
+          </div>
+          <div class="pass-preview">
+            <span class="pass-label">Studio permit</span>
+            <strong>FL-ACCESS</strong>
+            <small>Serial / production zone</small>
+          </div>
+          <div class="pass-steps">
+            <div><span>01</span><p>Заполни заявку</p></div>
+            <div><span>02</span><p>Дождись проверки</p></div>
+            <div><span>03</span><p>Активируй ключ в игре</p></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section project" id="project">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow"><span></span> О проекте</p>
+          <h2>Не массовый сервер, а съёмочная площадка</h2>
+          <p>FrameLock начинается как дружный проект: мы снимаем свой сериал внутри Minecraft, собираем сцены, персонажей и локации. Нам нужны люди, которые не просто заходят посмотреть, а готовы быть частью процесса.</p>
+        </div>
+        <div class="feature-stack">
+          <article class="feature">
+            <b>Съёмки</b>
+            <p>Serial — закрытая зона проекта, куда заходят только участники с проходкой.</p>
+          </article>
+          <article class="feature">
+            <b>Выживание</b>
+            <p>Рядом есть отдельный сервер с техно-магической сборкой для обычной игры.</p>
+          </article>
+          <article class="feature">
+            <b>Команда</b>
+            <p>Мы не гонимся за онлайном. Важнее адекватность, участие и нормальная атмосфера.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section access" id="access">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow"><span></span> Как попасть</p>
+          <h2>Доступ выдаётся через ключ</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item"><span>1</span><h3>Заявка</h3><p>Укажи ник, Discord, опыт, онлайн и почему хочешь попасть в студию.</p></div>
+          <div class="timeline-item"><span>2</span><h3>Проверка</h3><p>Админ смотрит заявку. Если ник ещё не заходил на lobby, статус будет ожидать входа.</p></div>
+          <div class="timeline-item"><span>3</span><h3>Ключ</h3><p>После одобрения появится ключ. Его надо активировать в игре командой <code>/key КЛЮЧ</code>.</p></div>
+          <div class="timeline-item"><span>4</span><h3>Портал</h3><p>После активации портал на Serial пустит тебя в съёмочную зону.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rules" id="rules">
+      <div class="container rules-grid">
+        <div>
+          <p class="eyebrow"><span></span> Правила студии</p>
+          <h2>Коротко: не мешай съёмкам и не ломай атмосферу</h2>
+          <p>Проходка может быть отозвана, если игрок сливает материалы, мешает сценам, грифит или ведёт себя токсично.</p>
+        </div>
+        <div class="rules-list">
+          <div><b>01</b><span>Не сливать карту, сюжет, сцены и внутренние материалы.</span></div>
+          <div><b>02</b><span>Не ломать декорации, не трогать съёмочные зоны без разрешения.</span></div>
+          <div><b>03</b><span>На съёмках слушать ответственного и не перебивать процесс.</span></div>
+          <div><b>04</b><span>Не использовать читы, дюпы, краш-клиенты и любые обходы.</span></div>
+          <div><b>05</b><span>Если не можешь прийти — предупреди. Уважай время команды.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apply" id="apply">
+      <div class="container apply-grid">
+        <div class="panel intro-panel">
+          <p class="eyebrow"><span></span> Заявка</p>
+          <h2>Подать заявку на проходку</h2>
+          <p>После отправки ты получишь номер заявки и секретный код. Сохрани их — по ним открывается личный кабинет заявки.</p>
+          <div class="mini-warning">GitHub Pages версия хранит заявки в браузере. Для общей базы нужен backend; интерфейс уже подготовлен под подключение API.</div>
+        </div>
+        <form class="panel form" id="applicationForm" autocomplete="off">
+          <label>Ник Minecraft<input name="minecraft" maxlength="32" placeholder="maffiozaa" required></label>
+          <label>Discord<input name="discord" maxlength="64" placeholder="username или @ник" required></label>
+          <label>Возраст<input name="age" maxlength="24" placeholder="можно кратко" required></label>
+          <label>Когда обычно онлайн<input name="availability" maxlength="120" placeholder="например: вечер, МСК" required></label>
+          <label>Опыт RP / съёмок<textarea name="experience" rows="3" maxlength="900" placeholder="RP, съёмки, строительство, монтаж, актёрка..." required></textarea></label>
+          <label>Почему хочешь в FrameLock<textarea name="why" rows="4" maxlength="1200" placeholder="Напиши нормально, не одной строчкой" required></textarea></label>
+          <label>Дополнительно<textarea name="extra" rows="3" maxlength="900" placeholder="ссылки, портфолио, микрофон, роли, идеи"></textarea></label>
+          <label class="check"><input type="checkbox" name="rules" required><span>Я прочитал правила и понимаю, что проходку могут отозвать.</span></label>
+          <button class="btn primary wide" type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section status" id="status">
+      <div class="container status-grid">
+        <div class="panel">
+          <p class="eyebrow"><span></span> Личный кабинет</p>
+          <h2>Проверить заявку</h2>
+          <p>Введи номер заявки и секретный код, которые сайт выдал после отправки.</p>
+          <form id="statusForm" class="compact-form">
+            <input name="id" placeholder="FL-000001" required>
+            <input name="secret" placeholder="секретный код" required>
+            <button class="btn ghost wide" type="submit">Открыть кабинет</button>
+          </form>
+        </div>
+        <div class="panel result-panel" id="statusResult">
+          <span class="empty-state">Здесь появится статус, ключ и инструкция после проверки.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section admin" id="admin">
+      <div class="container admin-shell">
+        <div class="admin-login panel" id="adminLogin">
+          <p class="eyebrow"><span></span> Админ</p>
+          <h2>Вход в кабинет</h2>
+          <p>Для статической версии пароль хранится в конфиге браузера, поэтому это только локальная демо-админка. На настоящем backend будет нормальная авторизация.</p>
+          <form id="adminLoginForm" class="compact-form">
+            <input name="login" placeholder="логин" required>
+            <input name="password" type="password" placeholder="пароль" required>
+            <button class="btn primary wide" type="submit">Войти</button>
+          </form>
+        </div>
+
+        <div class="admin-board" id="adminBoard" hidden>
+          <div class="board-top">
+            <div>
+              <p class="eyebrow"><span></span> Dashboard</p>
+              <h2>Заявки FrameLock</h2>
+            </div>
+            <div class="board-actions">
+              <button class="btn ghost" id="exportJsonBtn" type="button">Export JSON</button>
+              <button class="btn ghost" id="exportCsvBtn" type="button">Export CSV</button>
+              <button class="btn danger" id="logoutBtn" type="button">Выйти</button>
+            </div>
+          </div>
+          <div class="stats" id="adminStats"></div>
+          <div class="admin-layout">
+            <aside class="request-list" id="requestList"></aside>
+            <article class="request-detail panel" id="requestDetail"><span class="empty-state">Выбери заявку слева.</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="createdDialog" class="dialog">
+    <div class="dialog-card">
+      <button class="dialog-close" type="button" data-close-dialog>×</button>
+      <p class="eyebrow"><span></span> Заявка создана</p>
+      <h2>Сохрани данные</h2>
+      <p>Без секретного кода ты не сможешь открыть личный кабинет заявки.</p>
+      <div class="created-box">
+        <span>Номер заявки</span><b id="createdId">—</b>
+        <span>Секретный код</span><b id="createdSecret">—</b>
+      </div>
+      <a class="btn primary wide" href="#status" data-close-dialog>Проверить статус</a>
+    </div>
+  </dialog>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
